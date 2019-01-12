@@ -1,0 +1,23 @@
+{
+  "name": "work-cli",
+  "version": "1.0.0",
+  "description": "The cli for work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm link && cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "work-cli": "./bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table": "^0.3.1",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0"
+  }
+}

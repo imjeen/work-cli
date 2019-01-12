@@ -1,0 +1,6 @@
+{
+    "init": {
+        "git": "github:imjeen/vue-admin",
+        "branch": "master"
+    }
+}
