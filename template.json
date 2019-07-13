@@ -1,6 +1,10 @@
 {
-    "init": {
+    "vue-admin": {
         "git": "github:imjeen/vue-admin",
+        "branch": "master"
+    },
+    "vue-ssr": {
+        "git": "github:imjeen/vue-ssr",
         "branch": "master"
     }
 }
