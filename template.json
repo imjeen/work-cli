@@ -6,5 +6,9 @@
     "vue-ssr": {
         "git": "github:imjeen/vue-ssr",
         "branch": "master"
+    },
+    "vue-h5": {
+        "git": "github:imjeen/vue-h5",
+        "branch": "master"
     }
 }
