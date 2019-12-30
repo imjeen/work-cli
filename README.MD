@@ -28,5 +28,5 @@ $ work-cli init
 
 便于开发可以使用Docker容器化环境：
 
-1. 进入容器：`docker run --rm -it -w /root/cli -v $PWD:/root/cli node:10.15.3-alpine sh`
+1. 进入容器：`docker run --rm -it -w /root/cli -v $PWD:/root/cli node:12.13.1-alpine sh`
 2. `npm link`
