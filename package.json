@@ -17,7 +17,7 @@
   "devDependencies": {
     "chalk": "^3.0.0",
     "cli-table": "^0.3.1",
-    "commander": "^2.20.3",
+    "commander": "^4.0.1",
     "download-git-repo": "^3.0.2",
     "inquirer": "^7.0.1",
     "ora": "^4.0.3"

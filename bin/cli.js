@@ -36,6 +36,7 @@ program
 
 // help
 program.parse(process.argv);
-if (!program.args.length) {
+// Migration: if (!program.args.length) 
+if (program.rawArgs.length < 3) {
     program.help();
 }
