@@ -40,7 +40,7 @@ let question_list = [
         type: 'input',
         name: 'description',
         message: 'Project description',
-        default: 'Vue project',
+        default: 'a project',
         validate(val) {
             return true;
         },

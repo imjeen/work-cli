@@ -10,5 +10,9 @@
     "vue-h5": {
         "git": "github:imjeen/vue-h5",
         "branch": "master"
+    },
+    "lib-rollup": {
+        "git": "github:imjeen/lib-rollup",
+        "branch": "master"
     }
 }
