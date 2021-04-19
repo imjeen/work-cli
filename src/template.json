@@ -14,5 +14,9 @@
     "lib-rollup": {
         "git": "github:imjeen/lib-rollup",
         "branch": "master"
+    },
+    "lite": {
+        "git": "github:imjeen/lite",
+        "branch": "master"
     }
 }
