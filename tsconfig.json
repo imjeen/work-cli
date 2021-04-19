@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2016",
+        "lib": ["DOM", "ES2016"],
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "rootDir": "./src",
+        "outDir": "lib",
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "typeRoots": ["./node_modules/@types", "./@types"],
+        "paths": {
+            "@src/*": ["src/*"]
+        }
+    },
+    "include": ["src/**/*", "@types/**/*.d.ts"]
+}
