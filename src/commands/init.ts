@@ -8,7 +8,7 @@ import * as TEMPLATE from "../template.json";
 
 const TEMPLATE_NAMES = Object.keys(TEMPLATE); // 默认模版列表
 
-let question_list = [
+const question_list = [
     // project
     {
         type: "input",
@@ -68,8 +68,7 @@ let question_list = [
 prompt(question_list)
     .then((answer) => {
         console.log(JSON.stringify(answer, null, 2));
-        // @ts-ignore
-        let tpl = TEMPLATE[answer.template];
+        let tpl = TEMPLATE[answer.template as keyof typeof TEMPLATE];
         let git = `${tpl.git}#${tpl.branch || "master"}`;
         console.log("github: ", git);
 

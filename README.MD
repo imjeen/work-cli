@@ -20,6 +20,9 @@ $ work-cli list
 
 # init project and interaction
 $ work-cli init
+
+# create from user inputting data
+$ work-cli create
 ```
 
 ## Development

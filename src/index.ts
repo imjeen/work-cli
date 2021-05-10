@@ -26,6 +26,24 @@ program
     .action(() => {
         require("./commands/init");
     });
+
+// create
+program
+    .command("create")
+    // .alias("")
+    // .option('-f, --foo', 'enable some foo')
+    .description(
+        `create project from a git repository. 
+        The shorthand repository string to download the repository from:
+            1. GitHub - github:owner/name or simply owner/name
+            2. GitLab - gitlab:owner/name or gitlab:custom.com:owner/name
+            3. Bitbucket - bitbucket:owner/name
+        `
+    )
+    .action(() => {
+        require("./commands/create");
+    });
+
 // list
 program
     .command("list")
